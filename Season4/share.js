@@ -24,7 +24,7 @@ function showResult() {
     else if (parseInt(resultScore) >= 101 && parseInt(resultScore) < 150) {
         $('#sp_content').html("你是当之无愧的最强大脑！");
     }
-    else if (parseInt(resultScore) >= 151 && parseInt(resultScore) < 200) {
+    else if (parseInt(resultScore) >= 151 && parseInt(resultScore) <= 200) {
         $('#sp_content').html("你的大脑已达到巅峰，无人能超越！");
     }
 
