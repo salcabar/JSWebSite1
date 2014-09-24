@@ -144,7 +144,7 @@ function submitBtn() {
                 total1++;
                 break;
             case 2:
-                var cc = AddCountScore + 10;
+                var cc = AddCountScore + 15;
                 $('#addScore').html("+" + cc);
                 score += cc;
                 continue2++;
